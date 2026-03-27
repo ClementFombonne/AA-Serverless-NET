@@ -13,3 +13,7 @@
 /workspaces/AA-Serverless-NET/sample1/obj/Debug/net8.0/sample1.pdb
 /workspaces/AA-Serverless-NET/sample1/obj/Debug/net8.0/sample1.genruntimeconfig.cache
 /workspaces/AA-Serverless-NET/sample1/obj/Debug/net8.0/ref/sample1.dll
+/workspaces/AA-Serverless-NET/sample1/bin/Debug/net8.0/Newtonsoft.Json.dll
+/workspaces/AA-Serverless-NET/sample1/obj/Debug/net8.0/sample1.csproj.AssemblyReference.cache
+/workspaces/AA-Serverless-NET/sample1/obj/Debug/net8.0/sample1.csproj.Up2Date
+/workspaces/AA-Serverless-NET/sample1/bin/Debug/net8.0/SixLabors.ImageSharp.dll
