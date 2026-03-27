@@ -40,7 +40,7 @@ class Program
         
         // Redimensionner une seule image
         Console.WriteLine("\n=== Redimensionnement simple ===");
-        ResizeImage(@"./images/test1.png", @"./images_resized/test1_resized.png", 200, 200);
+        ResizeImage(@"./images/image.png", @"./images_resized/image_resized.png", 200, 200);
         
         // Redimensionner plusieurs images en parallèle et mesurer les performances
         Console.WriteLine("\n=== Traitement parallèle ===");
