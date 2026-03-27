@@ -16,9 +16,16 @@ public static class ResizeHttpTrigger
     /// <summary>Redimensionne une image reçue via POST.</summary>
     [FunctionName("ResizeHttpTrigger")]
     public static async Task<IActionResult> Run(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", "put", "delete", "patch", "options", Route = null)] HttpRequest req,
         ILogger log)
     {
+        // 0. Validation stricte de la méthode HTTP (405)
+        if (!req.Method.Equals(HttpMethods.Post, StringComparison.OrdinalIgnoreCase))
+        {
+            log.LogWarning($"Méthode HTTP non autorisée tentée : {req.Method}");
+            return new StatusCodeResult(StatusCodes.Status405MethodNotAllowed);
+        }
+
         // 1. Validation de la syntaxe (400)
         if (string.IsNullOrEmpty(req.Query["w"]) || !int.TryParse(req.Query["w"], out int w) ||
             string.IsNullOrEmpty(req.Query["h"]) || !int.TryParse(req.Query["h"], out int h))
