@@ -1,0 +1,6 @@
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.csproj.AssemblyReference.cache
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.AssemblyInfoInputs.cache
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.AssemblyInfo.cs
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.csproj.CoreCompileInputs.cache
+/workspaces/AA-Serverless-NET/obj/Debug/net10.0/AA-Serverless-NET.sourcelink.json

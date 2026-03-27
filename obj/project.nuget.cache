@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C+Qv98Zn87E=",
+  "dgSpecHash": "pOWBEGXI+9M=",
   "success": true,
   "projectFilePath": "/workspaces/AA-Serverless-NET/AA-Serverless-NET.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/sixlabors.imagesharp/3.1.12/sixlabors.imagesharp.3.1.12.nupkg.sha512"
+  ],
   "logs": []
 }
