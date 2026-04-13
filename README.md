@@ -109,7 +109,7 @@ Le TP sera noté et rendu de la manière suivante:
  - Rendez un code de qualité
  - **Bien suivre les instructions** car une partie de l'évaluation est automatisée.
  - Le rendu doit s'effectuer comme décrit ci-dessous.
-    - Envoi du rendu via le [formulaire de réponse](https://forms.microsoft.com)
+    - Envoi du rendu via le [formulaire de réponse](https://forms.cloud.microsoft/e/Muz0LHEysu)
     - _TODO_ *Vidéo obligatoire* : une vidéo démontrant le fonctionnement de la Logic App lisant des images depuis le Blob Storage (dépôt de plusieurs fichiers, détails du run de la Logic App, apparition des fichiers traités dans le Blob Storage). Des explications sur l'application et son fonctionnement sont attendues pendant le déroulement de la vidéo (i.e., pas de vidéo muette sauf dérogation)
     - Les vidéos sous soumises sur Youtube [unlisted](https://support.google.com/youtube/answer/157177?sjid=4795422317307104878-EU#unlisted&zippy=%2Cunlisted-videos) *uniquement*. Elles doivent faire  *au plus* 3 minutes chacune (le plus court le mieux). Les autres formats de fourniture vidéo seront ignorés. Si nécessaire, exécutez le code localement sur votre poste ou augmentez le nombre de CPU de votre Codespace pour mieux mettre en avant l'amélioration des performances.
      - *Bonus* : une vidéo démontrant le gain de performance obtenu par la parallélisation sur le traitement local (section 3.3)
